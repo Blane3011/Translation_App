@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/Translation-App/">
+        <title>AI Translation App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="manifest" href="manifest.json"/>
+
+        <link rel="icon" type="image/png" href="Images/Favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="Images/Favicons/favicon.svg" />
+        <link rel="shortcut icon" href="Images/Favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="AI Translator" />
+        <link rel="manifest" href="Images/Favicons/site.webmanifest" />
+    </head>
+
+    <body>
+   <div class="settings-container">
+  <div class="accessibility-panel">
+    <h2>Appearance Settings</h2>
+    <label>
+      Font Size
+      <input type="range" id="fontSize" min="12" max="24" value="16">
+    </label>
+    <label>
+      Line Height
+      <input type="range" id="lineHeight" min="1" max="2" step="0.1" value="1.4">
+    </label>
+    <label>
+      Theme
+      <select id="theme">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="high-contrast-light">High Contrast Light</option>
+        <option value="high-contrast-dark">High Contrast Dark</option>
+      </select>
+    </label>
+    <button id="resetSettings">Reset to Default</button>
+  </div>
+</div>
+
+        <button id="resetSettings">Reset to Default</button>
+    </div>
+    </div>
+
+    <script src="js/settings.js" defer></script>
+    <script src = "js/settingsPage.js" defer></script>
+    <script type = "module" src="js/main.js" defer></script>
+    </body>f

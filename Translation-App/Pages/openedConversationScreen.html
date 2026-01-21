@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/Translation-App/">
+        <title>AI Translation App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="icon" type="image/png" href="Images/Favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="Images/Favicons/favicon.svg" />
+        <link rel="shortcut icon" href="Images/Favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="AI Translator" />
+        <link rel="manifest" href="Images/Favicons/site.webmanifest" />
+
+        <script src = "app.js"></script>
+    </head>
+
+    <body>
+        <div class="container my-4">
+            <div class="main-card p-4 p-md-5 mx-auto" id="messageBox">
+            </div>
+        </div>
+
+        <nav class="navbar fixed-bottom">
+            <div class="container d-flex justify-content-around py-2">
+                <!-- Left Icon -->
+                 <button type = "button" id="binButton" class="nav-link text-center text-light">
+                    <img src="Images/Icons/bin.png" id="binIcon"   width="40" class="mb-1">
+                 </button>
+         
+
+                <!-- Middle Icon ACCESS MICROPHONE-->
+                 <button type = "button" id="speakerButton" class="nav-link text-center text-light">
+                    <img src="Images/Icons/speaker.png" id="speakerIcon"   width="40" class="mb-1">
+                 </button>
+            
+
+                <!-- Right Icon-->
+                <button type = "button" id="SMSButton" class="nav-link text-center text-light">
+                    <img src="Images/Icons/text.png" id="textIcon"   width="40" class="mb-1">
+                 </button>
+            </div>
+        </nav>
+
+        <script src="js/bootstrap.bundle.min.js" defer></script>
+        <script type = "module" src="js/main.js" defer></script>
+        <script type = "module" src="js/loadConversation.js"></script>
+  </body>
+</html>  
